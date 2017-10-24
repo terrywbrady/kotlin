@@ -53,6 +53,7 @@ Java | Kotlin | Note
 
 #### Kotlin sample generic code
 - [generics.kt](generics.kt)
+  - [Java Equivalent](test1/src/main/java/demo/MyDemo.java)
 
 ## Star Projection
     class Foo<out TUpper>{
