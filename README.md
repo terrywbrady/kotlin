@@ -17,7 +17,7 @@
   - syntax of parameters passed to the observable method
 - Unclear examples
   - Locally delegated property
-    - cool idea, but sample code is not illustrative enought
+    - cool idea, but sample code is not illustrative enough
   
 
 ## [Data Class](dataClass.kt)
