@@ -16,7 +16,7 @@ class MyList<T> {
   fun add(item: T) {
       list.add(item)
   }
-  fun copyAll(input: MyList<T>): Boolean {
+  fun copyAll(input: MyList<out T>): Boolean {
     return list.addAll(input.list);
   }
 }
