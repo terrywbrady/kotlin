@@ -1,7 +1,11 @@
 class Foo {
-    fun <T> triple(t: T): T{
+    //T on its own may be null
+    //T: Any cannot be null
+    //T: Any? may be null
+    fun <T: Any> triple(t: T): T{
         return t
-        //eturn t + t + t
+        //Any does not support plus().  There is no other common ancestor for Int and String
+        //return t + t + t
         //return t.plus(t).plus(t)
     }
 }
